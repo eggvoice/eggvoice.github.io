@@ -1,6 +1,6 @@
 title: Earth Data Analytics
-author:
-  name: Ed Chan
+author: Ed Chan
+email: "ed.chan at colorado.edu"
 
 description: >
   Technical Consultant exploring Earth Data Analytics. My opinions are my own.
@@ -10,3 +10,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/eggvoice" }
+    - { platform: twitter, user_url: "https://twitter.com/myeggvoice" }
