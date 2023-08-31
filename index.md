@@ -3,6 +3,7 @@ layout: default
 title: Ed's Work
 ---
 **Bio**\
+![Ed's Bio Picture](img/bio.jpg)
 Hello! To be updated.
 
 **Education**\
@@ -12,5 +13,5 @@ BS, Information Systems Design and Development,Penn State (University Park, PA),
 **Find Me Online**\
 Blog: [eggvoice.com](https://eggvoice.com)\
 GitHub: [eggvoice](https://github.com/eggvoice)\
-Twitter: [myeggvoice](https://twitter.com/myeggvoice)
+Twitter: [myeggvoice](https://twitter.com/myeggvoice)\
 LinkedIn: [Edward Chan](https://www.linkedin.com/in/edward6chan/)
