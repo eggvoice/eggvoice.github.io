@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Ed's Work
 ---
 
 # Header 1
