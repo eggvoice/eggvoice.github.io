@@ -1,17 +1,5 @@
-title: Earth Data Analytics
-author: Ed Chan
-email: "ed.chan at colorado.edu"
-
-description: >
-  Technical Consultant exploring Earth Data Analytics. My opinions are my own.
-
-theme: minima
-
+title: Ed's Work
+description: Technical Consultant exploring Earth Data Analytics. My opinions are my own.
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-minima:
-  header_pages:
-    - index.md
-    - about.md
+- jekyll-remote-theme # add this line to the plugins list if you already have one
