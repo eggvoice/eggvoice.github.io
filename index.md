@@ -24,5 +24,6 @@ var fun = function lang(l) {
 ```
 
 **Find Me**\
+Blog: [eggvoice.com](https://eggvoice.com)\
 GitHub: [eggvoice](https://github.com/eggvoice)\
 Twitter: [myeggvoice](https://twitter.com/myeggvoice)
