@@ -6,7 +6,7 @@ title: Ed's Work
 Hello! To be updated.
 
 **Education**\
-MSc, Space Studies, International Space University (Strasbourg, France), Dec 2021
+MSc, Space Studies, International Space University (Strasbourg, France), Dec 2021\
 BS, Information Systems Design and Development,Penn State (University Park, PA), May 2015
 
 **Find Me Online**\
