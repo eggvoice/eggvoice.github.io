@@ -6,7 +6,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-title: Home
+title: Welcome!
+exclude: true
 ---
 
 ## Project # 1
