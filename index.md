@@ -12,9 +12,9 @@ Board games :game_die:\
 Books :books:
 
 **Interests**\
-Climbing :climbing:\
-Python :computer:\
-California's Geology :rock:
+Climbing\
+Python\
+California's Geology
 
 **Education**\
 MSc Space Studies, [International Space University](https://www.isunet.edu/) (2021)\
