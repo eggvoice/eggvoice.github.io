@@ -11,6 +11,11 @@ Expresso :coffee:\
 Board games :game_die:\
 Books :books:
 
+**Interests**\
+Climbing :climbing:\
+Python :computer:\
+California's Geology :rock:
+
 **Education**\
 MSc Space Studies, [International Space University](https://www.isunet.edu/) (2021)\
 BS Information Systems Design and Development, [Penn State](https://www.psu.edu/) (2015)
