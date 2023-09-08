@@ -2,8 +2,11 @@
 layout: default
 title: Ed's Work
 ---
-# San Francisco average temperatures shows a upward trend (from ~55°F to ~60°F) over the observed years (1946-2022)
+# San Francisco Average Temperatures
+A upward trend over the observed years (1946-2022)
 ![San Francisco Average Temperatures](img/san_francisco_tavg_trend.png)
+
+NOAA National Centers for Environmental information, Climate at a Glance: City Time Series, published August 2023, retrieved on September 7, 2023 from https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/city/time-series
 
 **Bio**\
 ![Ed's Bio Picture](img/bio.jpg)
