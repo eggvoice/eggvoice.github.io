@@ -6,6 +6,8 @@ title: Ed's Work
 - [San Francisco Average Temperatures](#san-francisco-average-temperatures)
 - [About Me](#about-me)
 
+***
+
 # San Francisco Average Temperatures
 A upward trend over the observed years (1946-2022)
 ![San Francisco Average Temperatures](img/san_francisco_tavg_trend.png)
@@ -26,6 +28,7 @@ NOAA National Centers for Environmental information, Climate at a Glance: City T
 Topography Description: `IN CENTRAL SAN FRANCISCO ON MINT HILL (ON SITE U.S. MINT) AT THE CORNER OF HERMANN AND BUCHANAN). DOWNTOWN AREA NE THROUGH E.` from [NCDC](https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USW00023272/detail).\
 Latitude/Longitude: `37.7705°, -122.4269°` (Plug that into Google Maps!)
 
+***
 
 # About Me:
 ![Ed's Bio Picture](img/bio.jpg)
