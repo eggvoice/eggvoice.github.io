@@ -1,5 +1,5 @@
 title: Ed's Work
-description: Technical Consultant exploring Earth Data Analytics. My opinions are my own.
+description: Technical Consultant exploring Earth Data Analytics at CU Boulder. My opinions are my own.
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
