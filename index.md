@@ -10,7 +10,7 @@ title: Ed's Work
 
 # San Francisco Average Temperatures
 A upward trend over the observed years (1946-2022)
-![San Francisco Average Temperatures](img/san_francisco_tavg_trend.png)
+![San Francisco Average Temperatures](https://eggvoice.github.io/notebooks/ncei_tavg_san_francisco.html)
 
 ##### Python Libraries: 
 [`pandas`](https://github.com/pandas-dev/pandas), [`hvplot`](https://github.com/holoviz/hvplot), [`holoviews`](https://github.com/holoviz/holoviews), [`numpy`](https://github.com/numpy/numpy)
