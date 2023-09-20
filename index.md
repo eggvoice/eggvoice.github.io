@@ -3,10 +3,32 @@ layout: default
 title: Ed's Work
 ---
 # Quick Links
+- [Penn State Time Series Data (1985-2022): Flood Return Periods](#penn-state-time-series-data)
 - [San Francisco Average Temperatures](#san-francisco-average-temperatures)
 - [About Me](#about-me)
 
 ***
+# Penn State Time Series Data (1985-2022): Flood Return Periods
+The following plots suggests 2004 being the worst year in recent times in the Penn State region.
+[<sub><sup>Details</sup></sub>](https://eggvoice.github.io/notebooks/usgs-nwis-time-series-flood-analysis.html)
+[<sub><sup>Source Code</sup></sub>](https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/usgs-nwis-time-series-flood-analysis.ipynb)
+![PSU Daily Streamflow Average](img/psu_daily_streamflow_average.png)
+![PSU Streamflow Annual Maxima](img/psu_streamflow_annual_max.png)
+![PSU Flood Return Periods](img/psu_flood_return_period.png)
+
+##### Python Libraries: 
+[`folium`](https://github.com/python-visualization/folium), [`pandas`](https://github.com/pandas-dev/pandas), [`hvplot`](https://github.com/holoviz/hvplot), [`requests`](https://github.com/psf/requests)
+
+##### Data Source:
+[USGS National Water Dashboard > State College, PA > USGS 01546400 (Surface Water, Stream) > Data (Daily Data)](https://waterdata.usgs.gov/nwis/inventory?site_no=01546400)
+
+##### Citation: 
+U.S. Geological Survey, 2023, National Water Information System data available on the World Wide Web (USGS Water Data for the Nation), accessed [September 19, 2023], at URL [http://waterdata.usgs.gov/nwis/](http://waterdata.usgs.gov/nwis/)
+
+##### Fun Read:
+* [Stationarity is Undead - Risk communication under nonstationarity: a farewell to return period?](https://www.sciencedirect.com/science/article/pii/S0309170815000020?ref=pdf_download&fr=RR-2&rr=8096f5b969a41f3d#s0020)
+* [Stationary is Dead](https://www.law.berkeley.edu/files/CLEE/Milly_2008_Science_StationarityIsDead.pdf)
+* ["100-year floods can happen 2 years in a row"](https://www.usgs.gov/special-topics/water-science-school/science/100-year-flood)
 
 # San Francisco Average Temperatures
 A upward trend over the observed years (1946-2022)
