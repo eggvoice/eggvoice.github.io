@@ -3,14 +3,14 @@ layout: default
 title: Ed's Work
 ---
 # Quick Links
-- [Penn State Time Series Data (1985-2022): Flood Return Periods](#penn-state-time-series-data)
+- [Penn State Time Series Data (1985-2022): Flood Return Periods](#flood-frequency-analysis-of-penn-state)
 - [San Francisco Average Temperatures](#san-francisco-average-temperatures)
 - [About Me](#about-me)
 
 ***
-# Penn State Time Series Data (1985-2022): Flood Return Periods
-The following plots suggests 2004 being the worst year in recent times in the Penn State region.
-[<sub><sup>Details</sup></sub>](https://eggvoice.github.io/notebooks/usgs-nwis-time-series-flood-analysis.html)
+# Flood Frequency Analysis of Penn State
+Plotting water time series data (1985-2022) suggests 2004 being the worst year in the Penn State region in recent times.
+[<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/usgs-nwis-time-series-flood-analysis.html)
 [<sub><sup>Source Code</sup></sub>](https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/usgs-nwis-time-series-flood-analysis.ipynb)
 ![PSU Daily Streamflow Average](img/psu_daily_streamflow_average.png)
 ![PSU Streamflow Annual Maxima](img/psu_streamflow_annual_max.png)
