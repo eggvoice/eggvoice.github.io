@@ -9,7 +9,7 @@ title: Ed's Work
 
 ***
 # Flood Frequency Analysis of Penn State
-Plotting water time series data (1985-2022) suggests 2004 being the worst flooding year in the Penn State region in recent times.
+Plotting water time series data (1985-2022) suggests 2004 being the worst flooding year (a 38-year flood event) in the Penn State region in recent times.
 [<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/usgs-nwis-time-series-flood-analysis.html)
 [<sub><sup>Source Code</sup></sub>](https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/usgs-nwis-time-series-flood-analysis.ipynb)
 ![PSU Daily Streamflow Average](img/psu_daily_streamflow_average.png)
