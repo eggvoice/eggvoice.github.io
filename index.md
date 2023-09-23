@@ -3,7 +3,7 @@ layout: default
 title: Ed's Work
 ---
 # Quick Links
-- [Penn State Time Series Data (1985-2022): Flood Return Periods](#flood-frequency-analysis-of-penn-state)
+- [Flood Frequency Analysis of Penn State](#flood-frequency-analysis-of-penn-state)
 - [San Francisco Average Temperatures](#san-francisco-average-temperatures)
 - [About Me](#about-me)
 
