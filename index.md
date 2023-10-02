@@ -10,7 +10,7 @@ title: Ed's Work
 
 ***
 # Two Years after the Caldor Fire
-Plotting dNDVI before and after the Caldor Fitre suggests recovery in vegetation after two years.
+Plotting dNDVI before and after the Caldor Fire suggests recovery in vegetation after two years.
 [<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/modis-ndvi-caldor-fire.html)
 ![Caldor Fire Boundary](img/caldor_fire_boundary.png)
 ![Caldor Fire - Change in NDVI between 2020 and 2023](img/caldor_change_in_ndvi_spatial.png)
