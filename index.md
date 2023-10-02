@@ -11,7 +11,7 @@ title: Ed's Work
 ***
 # Two Years after the Caldor Fire
 Plotting dNDVI before and after the Caldor Fitre suggests recovery in vegetation after two years.
-[<sub><sup>Interactive HTML</sup></sub>]([https://eggvoice.github.io/notebooks/usgs-nwis-time-series-flood-analysis.html](https://eggvoice.github.io/notebooks/modis-ndvi-caldor-fire.html))
+[<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/modis-ndvi-caldor-fire.html)
 ![Caldor Fire Boundary](img/caldor_fire_boundary.png)
 ![Caldor Fire - Change in NDVI between 2020 and 2023](img/caldor_change_in_ndvi_spatial.png)
 ![Caldor Fire - Difference in NDVI inside and outside Caldor Fire boundary](img/caldor_change_in_ndvi_numeric.png)
@@ -21,7 +21,8 @@ Plotting dNDVI before and after the Caldor Fitre suggests recovery in vegetation
 
 ##### Data Source:
 * [WFIGS Interagency Perimeters > Filter (poly_IncidentName=Caldor)](https://data-nifc.opendata.arcgis.com/datasets/nifc::wfigs-interagency-fire-perimeters/api)
-* NDVI dataset at https://appeears.earthdatacloud.nasa.gov/task/area (NASA Earthdata account required)
+* NDVI dataset at https://appeears.earthdatacloud.nasa.gov/task/area \
+(NASA Earthdata account required)
   * Check out [the list of APPEEARS datasets](https://appeears.earthdatacloud.nasa.gov/products)
  
 ##### Citation: 
