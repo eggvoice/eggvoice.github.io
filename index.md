@@ -3,13 +3,13 @@ layout: default
 title: Ed's Work
 ---
 # Quick Links
-- [Two Years after the Caldor Fire](#two-years-after-the-caldor-fire)
+- [Two Years after the Caldor Fire](#vegetation-recovery-after-the-caldor-fire)
 - [Flood Frequency Analysis of Penn State](#flood-frequency-analysis-of-penn-state)
 - [San Francisco Average Temperatures](#san-francisco-average-temperatures)
 - [About Me](#about-me)
 
 ***
-# Two Years after the Caldor Fire
+# Vegetation Recovery after the Caldor Fire
 Plotting dNDVI before and after the Caldor Fire suggests recovery in vegetation after two years.\
 [<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/modis-ndvi-caldor-fire.html)
 ![Caldor Fire Boundary](img/caldor_fire_boundary.png)
