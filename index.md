@@ -3,11 +3,31 @@ layout: default
 title: Ed's Work
 ---
 # Quick Links
+- [Two Years after the Caldor Fire](#two-years-after-the-caldor-fire)
 - [Flood Frequency Analysis of Penn State](#flood-frequency-analysis-of-penn-state)
 - [San Francisco Average Temperatures](#san-francisco-average-temperatures)
 - [About Me](#about-me)
 
 ***
+# Two Years after the Caldor Fire
+Plotting dNDVI before and after the Caldor Fitre suggests recovery in vegetation after two years.
+[<sub><sup>Interactive HTML</sup></sub>]([https://eggvoice.github.io/notebooks/usgs-nwis-time-series-flood-analysis.html](https://eggvoice.github.io/notebooks/modis-ndvi-caldor-fire.html))
+![Caldor Fire Boundary](img/caldor_fire_boundary.png)
+![Caldor Fire - Change in NDVI between 2020 and 2023](img/caldor_change_in_ndvi_spatial.png)
+![Caldor Fire - Difference in NDVI inside and outside Caldor Fire boundary](img/caldor_change_in_ndvi_numeric.png)
+
+##### Python Libraries: 
+[`earthpy`](https://github.com/earthlab/earthpy), [`folium`](https://github.com/python-visualization/folium), [`geopandas`](https://github.com/geopandas/geopandas), [`matplotlib`](https://github.com/matplotlib/matplotlib), [`pandas`](https://github.com/pandas-dev/pandas), [`rioxarray`](https://github.com/corteva/rioxarray), [`xarray`](https://github.com/pydata/xarray)
+
+##### Data Source:
+* [WFIGS Interagency Perimeters > Filter (poly_IncidentName=Caldor)](https://data-nifc.opendata.arcgis.com/datasets/nifc::wfigs-interagency-fire-perimeters/api)
+* NDVI dataset at https://appeears.earthdatacloud.nasa.gov/task/area (NASA Earthdata account required)
+  * Check out [the list of APPEEARS datasets](https://appeears.earthdatacloud.nasa.gov/products)
+ 
+##### Citation: 
+* National Interagency Fire Center [The NIFC Org]. (2021). *Wildland Fire Interagency Geospatial Services (WFIGS) Interagency Fire Perimeters.* National Interagency Fire Center ArcGIS Online Organization. Accessed 2023-10-01 from https://data-nifc.opendata.arcgis.com/datasets/nifc::wfigs-interagency-fire-perimeters/api
+* Didan, K. (2021). *MODIS/Aqua Vegetation Indices 16-Day L3 Global 250m SIN Grid V061* [250m 16 days NDVI]. NASA EOSDIS Land Processes Distributed Active Archive Center. Accessed 2023-10-01 from https://doi.org/10.5067/MODIS/MYD13Q1.061
+
 # Flood Frequency Analysis of Penn State
 Plotting water time series data (1985-2022) suggests 2004 being the worst flooding year (a 38-year flood event) in the Penn State region in recent times.
 [<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/usgs-nwis-time-series-flood-analysis.html)
