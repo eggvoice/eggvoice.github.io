@@ -3,7 +3,7 @@ layout: default
 title: Ed's Work
 ---
 # Quick Links
-- [Two Years after the Caldor Fire](#vegetation-recovery-after-the-caldor-fire)
+- [Vegetation Recovery after the Caldor Fire](#vegetation-recovery-after-the-caldor-fire)
 - [Flood Frequency Analysis of Penn State](#flood-frequency-analysis-of-penn-state)
 - [San Francisco Average Temperatures](#san-francisco-average-temperatures)
 - [About Me](#about-me)
