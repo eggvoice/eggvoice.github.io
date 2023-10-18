@@ -3,12 +3,21 @@ layout: default
 title: Ed's Work
 ---
 # Quick Links
+- [Fire Density in California Watersheds](#fire-density-in-california-watersheds)
 - [Vegetation Recovery after the Caldor Fire](#vegetation-recovery-after-the-caldor-fire)
 - [Flood Frequency Analysis of Penn State](#flood-frequency-analysis-of-penn-state)
 - [San Francisco Average Temperatures](#san-francisco-average-temperatures)
 - [About Me](#about-me)
 
 ***
+# Fire Density in California Watersheds
+Increasing both numbers and sizes of wildfire in California Watersheds.\
+In the case of Sacremento, fire size is increasing in recent times.\
+[<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/wildfire-fire-density.html)
+![CA Watersheds - Fire Density 1992-2020](img/ca_fire_density_sorted.png)
+![CA Watersheds - Fire Density Chloropleth Plot](img/fire_density_chloropleth_plot.png)
+![Sacremento - Fire Occurrence and Size](img/larger_fires_in_sacremento.png)
+
 # Vegetation Recovery after the Caldor Fire
 Plotting dNDVI before and after the Caldor Fire suggests recovery in vegetation after two years.\
 [<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/modis-ndvi-caldor-fire.html)
