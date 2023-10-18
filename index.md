@@ -12,8 +12,8 @@ title: Ed's Work
 ***
 # Fire Density in California Watersheds
 Increasing both numbers and sizes of wildfire in California Watersheds.\
-In the case of Sacremento, fire size is increasing in recent times.\
-[<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/wildfire-fire-density.html)
+In the case of Sacremento, fire size is increasing in recent times.
+[<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/wildfire-fire-density.html)\
 ![CA Watersheds - Fire Density 1992-2020](img/ca_fire_density_sorted.png)
 ![CA Watersheds - Fire Density Chloropleth Plot](img/fire_density_chloropleth_plot.png)
 ![Sacremento - Fire Occurrence and Size](img/larger_fires_in_sacremento.png)
