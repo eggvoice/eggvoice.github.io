@@ -27,7 +27,8 @@ In this exercise, 2022 NDVI statistics were calculated for three popular neighbo
 # Fire Density in California Watersheds
 Increasing both numbers and sizes of wildfire in California Watersheds.\
 In the case of Sacremento, fire size is increasing in recent times.
-[<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/wildfire-fire-density.html)\
+[<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/wildfire-fire-density.html)
+[<sub><sup>Source Code</sup></sub>](https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/wildfire-fire-density.ipynb)\
 ![CA Watersheds - Fire Density 1992-2020](img/ca_fire_density_sorted.png)
 ![CA Watersheds - Fire Density Chloropleth Plot](img/fire_density_chloropleth_plot.png)
 ![Sacremento - Fire Occurrence and Size](img/larger_fires_in_sacremento.png)
@@ -35,6 +36,7 @@ In the case of Sacremento, fire size is increasing in recent times.
 # Vegetation Recovery after the Caldor Fire
 Plotting dNDVI before and after the Caldor Fire suggests recovery in vegetation after two years.\
 [<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/modis-ndvi-caldor-fire.html)
+[<sub><sup>Source Code</sup></sub>](https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/modis-ndvi-caldor-fire.ipynb)\
 ![Caldor Fire Boundary](img/caldor_fire_boundary.png)
 ![Caldor Fire - Change in NDVI between 2020 and 2023](img/caldor_change_in_ndvi_spatial.png)
 ![Caldor Fire - Difference in NDVI inside and outside Caldor Fire boundary](img/caldor_change_in_ndvi_numeric.png)
