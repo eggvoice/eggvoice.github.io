@@ -12,9 +12,10 @@ title: Ed's Work
 
 ***
 # 2022 NDVI for Popular Neighborhoods in San Francisco
-According to USDA, "[i]n general, NDVI values range from -1.0 to 1.0, with negative values indicating clouds and water, positive values near zero indicating bare soil, and higher positive values of NDVI ranging from sparse vegetation (0.1 - 0.5) to dense green vegetation (0.6 and above)."
+According to USDA -
+>In general, NDVI values range from -1.0 to 1.0, with negative values indicating clouds and water, positive values near zero indicating bare soil, and higher positive values of NDVI ranging from sparse vegetation (0.1 - 0.5) to dense green vegetation (0.6 and above).
 
-2022 NDVI statistics were calculated for three popular neighborhoods (Marina, Mission, North Beach) in San Francisco to assess the greenness and overall suitability for living in each neighborhood. Presidio was added as a benchmark. Nothing conclusive, but it's fun to just look from this perspective!
+In this exercise, 2022 NDVI statistics were calculated for three popular neighborhoods (Marina, Mission, North Beach) in San Francisco to assess the greenness and overall suitability for living in each neighborhood. Presidio was added as a benchmark. Nothing conclusive, but it's fun to just look from this perspective!
 [<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/san-francisco-multispectral.html)
 [<sub><sup>Source Code</sup></sub>](https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/san-francisco-multispectral.ipynb)\
 ![San Francisco Chloropleth Table](img/sfo_chloropleth_table.png)\
