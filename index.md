@@ -13,7 +13,8 @@ title: Ed's Work
 ***
 # 2022 NDVI for Popular Neighborhoods in San Francisco
 2022 NDVI statistics were calculated for three popular neighborhoods (Marina, Mission, North Beach) in San Francisco to assess the greenness and overall suitability for living in each neighborhood. Presidio was added as a benchmark. Nothing conclusive, but it's fun to just look from this perspective!
-[<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/san-francisco-multispectral.html)\
+[<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/san-francisco-multispectral.html)
+[<sub><sup>Source Code</sup></sub>](https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/san-francisco-multispectral.ipynb)\
 ![San Francisco Chloropleth Table](img/sfo_chloropleth_table.png)\
 ![San Francisco Chloropleth](img/sfo_chloropleth.png)
 ##### Data Source:
