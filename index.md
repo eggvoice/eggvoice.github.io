@@ -13,10 +13,12 @@ title: Ed's Work
 ***
 # 2022 NDVI for Popular Neighborhoods in San Francisco
 2022 NDVI statistics were calculated for three popular neighborhoods (Marina, Mission, North Beach) in San Francisco to assess the greenness and overall suitability for living in each neighborhood. Presidio was added as a benchmark. Nothing conclusive, but it's fun to just look from this perspective!
-[<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/san-francisco-multispectral.html)
+[<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/san-francisco-multispectral.html)\
+![San Francisco Chloropleth Table](img/sfo_chloropleth_table.png)\
+![San Francisco Chloropleth](img/sfo_chloropleth.png)
 ##### Data Source:
-* [San Francisco Open Data](https://data.sfgov.org/Geographic-Locations-and-Boundaries/SF-Find-Neighborhoods/pty2-tcw4)
-* [San Francisco 2022 NAIP](https://naip-usdaonline.hub.arcgis.com/)
+[San Francisco Open Data](https://data.sfgov.org/Geographic-Locations-and-Boundaries/SF-Find-Neighborhoods/pty2-tcw4)\
+[San Francisco 2022 NAIP](https://naip-usdaonline.hub.arcgis.com/)
 
 # Fire Density in California Watersheds
 Increasing both numbers and sizes of wildfire in California Watersheds.\
