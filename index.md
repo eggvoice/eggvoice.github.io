@@ -13,7 +13,7 @@ title: Ed's Work
 
 ***
 # Multiple Data Layers
-Multiple data layers related to soil, topography, and climate were handled in this project.\
+Multiple data layers related to soil, topography, and climate were handled in this project while trying to build a habitat suitability model for Sorghasstrum Nutans.
 [<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/sorghastrum-nutans.html)
 [<sub><sup>Source Code</sup></sub>](https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/sorghastrum-nutans.ipynb)
 
