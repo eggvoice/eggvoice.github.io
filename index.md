@@ -3,6 +3,7 @@ layout: default
 title: Ed's Work
 ---
 # Quick Links
+- [Multiple Data Layers](#multiple-data-layers)
 - [2022 NDVI for Marina, Mission, North Beach](#2022-ndvi-for-popular-neighborhoods-in-san-francisco)
 - [Fire Density in California Watersheds](#fire-density-in-california-watersheds)
 - [Vegetation Recovery after the Caldor Fire](#vegetation-recovery-after-the-caldor-fire)
@@ -11,6 +12,47 @@ title: Ed's Work
 - [About Me](#about-me)
 
 ***
+# Multiple Data Layers
+Multiple data layers related to soil, topography, and climate were handled in this project.
+[<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/sorghastrum-nutans.html)
+[<sub><sup>Source Code</sup></sub>](https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/sorghastrum-nutans.ipynb)
+
+#### Fuzzy Logic Model (Suitability)
+These parameters haven't gone through any rigirous selection process.
+
+To demonstrate the ability to manipulate and harmonize DataArray objects, the following were defined:
+
+* Elevation (Low or Moderate): A trapezoidal membership function that covers elevations from 0 to 2000 meters
+* Slightly Acidic/Neutral Soil: Gaussian membership function centered at a pH of 6.5 with a spread of 1.
+* Well-drained soil is inferred indirectly from having moderate to high precipitation but while the specific humidity isn't high
+    * Moderate or High Precipitatoin: Gaussian membership function centered at 35 mm with a spread of 10 mm.
+    * Moderate Humidity: Gaussian membership function centered at 0.00500 kg/kg with a spread of 0.0005.
+
+![Oglala National Grassland Suitability](img/sorghastrum-nutans/Oglala National Grassland - Situability Map.png)
+
+
+#### Elevation
+![Oglala National Grassland Elevation](img/sorghastrum-nutans/Oglala National Grassland - Elevation.png)
+
+#### Elevation Aspect
+![Oglala National Grassland Elevation Aspect](img/sorghastrum-nutans/Oglala National Grassland - Elevation Aspect.png)
+
+#### Soil pH
+![Oglala National Grassland Soil pH](img/sorghastrum-nutans/Oglala National Grassland - Soil pH Map.png)
+
+#### Precipitation
+![Oglala National Grassland Precipitation](img/sorghastrum-nutans/Oglala National Grassland - Precipitation Map.png)
+
+#### Specific Humidity
+![Oglala National Grassland Precipitation](img/sorghastrum-nutans/Oglala National Grassland - Humidity Map.png)
+
+#### Data Citation
+* United States Forest Service (USFS). (2023). U.S. National Grassland Shapefiles [Data set]. USFS Enterprise Data Warehouse. Accessed 2023-12-18 from [https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.NationalGrassland.zip](https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.NationalGrassland.zip)
+* NASA JPL (2013). NASA Shuttle Radar Topography Mission Global 1 arc second [Data set]. NASA EOSDIS Land Processes Distributed Active Archive Center. Accessed 2023-12-18 from [https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003](https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003)
+* Duke University. (2019). POLARIS Soil Properties v1.0: pH Mean 60-100 cm Depth [Data set]. Duke University Hydrology Laboratory. Accessed 2023-12-18 from [http://hydrology.cee.duke.edu/POLARIS/PROPERTIES/v1.0/ph/mean/60_100/](http://hydrology.cee.duke.edu/POLARIS/PROPERTIES/v1.0/ph/mean/60_100/)
+* Northwest Knowledge Network. (2023). MACAv2 Metdata Precipitation Data - CCSM4 Historical 1950-2005 [Data set]. Northwest Knowledge Network. Accessed 2023-12-18 from [http://thredds.northwestknowledge.net:8080/thredds/ncss/agg_macav2metdata_pr_CCSM4_r6i1p1_historical_1950_2005_CONUS_monthly.nc?var=precipitation&disableProjSubset=on&horizStride=1&time_start=2005-01-15T00%3A00%3A00Z&time_end=2005-12-15T00%3A00%3A00Z&timeStride=1&addLatLon=true&accept=netcdf](http://thredds.northwestknowledge.net:8080/thredds/ncss/agg_macav2metdata_pr_CCSM4_r6i1p1_historical_1950_2005_CONUS_monthly.nc?var=precipitation&disableProjSubset=on&horizStride=1&time_start=2005-01-15T00%3A00%3A00Z&time_end=2005-12-15T00%3A00%3A00Z&timeStride=1&addLatLon=true&accept=netcdf)
+* Northwest Knowledge Network. (2023). MACAv2 Metdata Specific Humidity Data - CCSM4 Historical 1950-2005 [Data set]. Northwest Knowledge Network. Accessed 2023-12-18 from [http://thredds.northwestknowledge.net:8080/thredds/ncss/agg_macav2metdata_huss_CCSM4_r6i1p1_historical_1950_2005_CONUS_monthly.nc?var=specific_humidity&disableLLSubset=on&disableProjSubset=on&horizStride=1&time_start=2005-01-15T00%3A00%3A00Z&time_end=2005-12-15T00%3A00%3A00Z&timeStride=1&accept=netcdf](http://thredds.northwestknowledge.net:8080/thredds/ncss/agg_macav2metdata_huss_CCSM4_r6i1p1_historical_1950_2005_CONUS_monthly.nc?var=specific_humidity&disableLLSubset=on&disableProjSubset=on&horizStride=1&time_start=2005-01-15T00%3A00%3A00Z&time_end=2005-12-15T00%3A00%3A00Z&timeStride=1&accept=netcdf)
+
 # 2022 NDVI for Popular Neighborhoods in San Francisco
 According to USDA -
 >In general, NDVI values range from -1.0 to 1.0, with negative values indicating clouds and water, positive values near zero indicating bare soil, and higher positive values of NDVI ranging from sparse vegetation (0.1 - 0.5) to dense green vegetation (0.6 and above).
