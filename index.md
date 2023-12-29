@@ -17,6 +17,8 @@ Multiple data layers related to soil, topography, and climate were handled in th
 [<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/sorghastrum-nutans.html)
 [<sub><sup>Source Code</sup></sub>](https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/sorghastrum-nutans.ipynb)
 
+### Snippets from this project...
+
 #### Fuzzy Logic Model (Suitability)
 These parameters haven't gone through any rigirous selection process.
 
@@ -45,6 +47,9 @@ To demonstrate the ability to manipulate and harmonize DataArray objects, the fo
 
 #### Specific Humidity
 ![Oglala National Grassland Precipitation](img/sorghastrum-nutans/Oglala National Grassland - Humidity Map.png)
+
+#### Next Steps
+Look into Vapor Pressure Deficit over Specific Humidity, since it is more directly related to evaporative stress.
 
 #### Data Citation
 * United States Forest Service (USFS). (2023). U.S. National Grassland Shapefiles [Data set]. USFS Enterprise Data Warehouse. Accessed 2023-12-18 from [https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.NationalGrassland.zip](https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.NationalGrassland.zip)
