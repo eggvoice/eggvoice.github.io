@@ -3,6 +3,7 @@ layout: default
 title: Ed's Work
 ---
 # Quick Links
+- [Aerial Images Exploratory via K-means Clustering](#aerial-images-exploratory-via-kmeans-clustering)]
 - [Multiple Data Layers](#multiple-data-layers)
 - [2022 NDVI for Marina, Mission, North Beach](#2022-ndvi-for-popular-neighborhoods-in-san-francisco)
 - [Fire Density in California Watersheds](#fire-density-in-california-watersheds)
@@ -12,6 +13,96 @@ title: Ed's Work
 - [About Me](#about-me)
 
 ***
+# Aerial Images Exploratory via Kmeans Clustering
+I learned how to process HLSL30 data product using the k-means clustering algorithm. The format was provided in Cloud Optimized GeoTIFF (COG) format. I then came across a dataset of Denver regional aerial images. I wanted to practice the k-means clustering algorithm on these high-quality images. 
+[<sub><sup>HTML</sup></sub>](https://eggvoice.github.io/notebooks/lafayette_clustering.html)
+[<sub><sup>Source Code</sup></sub>](https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/lafayette_clustering.ipynb)
+
+The results were interesting. I have learned that **pixel interleaving** impacts how bands are stored differently in comparison to **band interleaving**. 
+
+Here's the `gdalinfo` output to confirm the image structure:
+```
+% gdalinfo N2W134b.tif 
+Driver: GTiff/GeoTIFF
+Files: N2W134b.tif
+Size is 10560, 10560
+Coordinate System is:
+PROJCRS["NAD83(2011) / Colorado Central (ftUS)",
+    BASEGEOGCRS["NAD83(2011)",
+        DATUM["NAD83 (National Spatial Reference System 2011)",
+            ELLIPSOID["GRS 1980",6378137,298.257222101004,
+                LENGTHUNIT["metre",1]]],
+        PRIMEM["Greenwich",0,
+            ANGLEUNIT["degree",0.0174532925199433]],
+        ID["EPSG",6318]],
+    CONVERSION["Lambert Conic Conformal (2SP)",
+        METHOD["Lambert Conic Conformal (2SP)",
+            ID["EPSG",9802]],
+        PARAMETER["Latitude of false origin",37.8333333333333,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8821]],
+        PARAMETER["Longitude of false origin",-105.5,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8822]],
+        PARAMETER["Latitude of 1st standard parallel",39.75,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8823]],
+        PARAMETER["Latitude of 2nd standard parallel",38.45,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8824]],
+        PARAMETER["Easting at false origin",914401.828803658,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8826]],
+        PARAMETER["Northing at false origin",304800.609601219,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8827]]],
+    CS[Cartesian,2],
+        AXIS["easting",east,
+            ORDER[1],
+            LENGTHUNIT["US survey foot",0.304800609601219]],
+        AXIS["northing",north,
+            ORDER[2],
+            LENGTHUNIT["US survey foot",0.304800609601219]],
+    ID["EPSG",6428]]
+Data axis to CRS axis mapping: 1,2
+Origin = (3112351.999799999874085,1784791.999800000106916)
+Pixel Size = (0.250000000000000,-0.250000000000000)
+Metadata:
+  AREA_OR_POINT=Area
+  TIFFTAG_DATETIME=2020:09:30 17:45:42
+  TIFFTAG_RESOLUTIONUNIT=2 (pixels/inch)
+  TIFFTAG_SOFTWARE=Adobe Photoshop CS5 Windows
+  TIFFTAG_XRESOLUTION=72
+  TIFFTAG_YRESOLUTION=72
+Image Structure Metadata:
+  INTERLEAVE=PIXEL
+Corner Coordinates:
+Upper Left  ( 3112352.000, 1784792.000) (105d 5'56.66"W, 39d59'14.59"N)
+Lower Left  ( 3112352.000, 1782152.000) (105d 5'56.81"W, 39d58'48.50"N)
+Upper Right ( 3114992.000, 1784792.000) (105d 5'22.74"W, 39d59'14.47"N)
+Lower Right ( 3114992.000, 1782152.000) (105d 5'22.89"W, 39d58'48.38"N)
+Center      ( 3113672.000, 1783472.000) (105d 5'39.77"W, 39d59' 1.49"N)
+Band 1 Block=10560x1 Type=Byte, ColorInterp=Red
+Band 2 Block=10560x1 Type=Byte, ColorInterp=Green
+Band 3 Block=10560x1 Type=Byte, ColorInterp=Blue
+Band 4 Block=10560x1 Type=Byte, ColorInterp=Undefined
+```
+
+Band interleaving stores each pixel band by band as illustrated by this [image](https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/GUID-8A660E6C-9CB7-49D0-B069-162DB1172150-web.gif).
+![Band Interleaving](https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/GUID-8A660E6C-9CB7-49D0-B069-162DB1172150-web.gif)
+
+Pixel interleaving stores pixels one band at a time as illustrated by this [image](https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/GUID-8A8A7AB1-3F96-4F1D-A2A3-75BE1F9CBEAE-web.gif).
+
+(Credit: ArcGIS)
+
+I picked a study site that's about 1 mile by 1 mile in size, near my home. Here's the RGB image before clustering:
+![Lafayette, CO](img/pre_cluster_rgb_image.png)
+
+I have processed four tiles which took quite a bit of time (~20-30 minutes) on my MacBook Pro (M1). 
+![Lafayette, CO](img/composite_cluster_plot.png)
+
+This seems like an excellent way to explore the data from the land cover perspective. I am excited to learn more about the land cover classifications and how to apply it to the real world.
+
 # Multiple Data Layers
 Multiple data layers related to soil, topography, and climate were handled in this project while trying to build a habitat suitability model for Sorghasstrum Nutans.
 [<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/sorghastrum-nutans.html)
