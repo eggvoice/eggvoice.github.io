@@ -3,6 +3,7 @@ layout: default
 title: Ed's Work
 ---
 # Quick Links
+- [Urban Greenspace](#urban-greenspace)
 - [Aerial Images Exploratory via K-means Clustering](#aerial-images-exploratory-via-kmeans-clustering)
 - [Multiple Data Layers](#multiple-data-layers)
 - [2022 NDVI for Marina, Mission, North Beach](#2022-ndvi-for-popular-neighborhoods-in-san-francisco)
@@ -13,6 +14,14 @@ title: Ed's Work
 - [About Me](#about-me)
 
 ***
+# Urban Greenspace
+I have learned how to calculate NDVI statistics on the 1-m resolution aerial images from the National Agriculture Imagery Program (NAIP). As mentioned below, I have come across the Denver Regional Aerial Photography Project which offers even higher resolution aerial images (3-inch, 6-inch, 12-inch). I wanted to explore the NDVI statistics on these high-resolution images. I have chosen the city of Lafayette, Colorado, as my study site. 
+[<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/lafayette_greenspace.html)
+[<sub><sup>Source Code</sup></sub>](https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/lafayette_greenspace.ipynb)
+
+Here's the result of that:
+![Urban Greenspace (Lafayette, CO)](img/lafayette_greenspace_fraction.png)
+
 # Aerial Images Exploratory via Kmeans Clustering
 I learned how to process HLSL30 data product using the k-means clustering algorithm. The format was provided in Cloud Optimized GeoTIFF (COG) format. I then came across a dataset of Denver regional aerial images. I wanted to practice the k-means clustering algorithm on these high-quality images. 
 [<sub><sup>HTML</sup></sub>](https://eggvoice.github.io/notebooks/lafayette_clustering.html)
