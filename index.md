@@ -96,7 +96,9 @@ Pixel interleaving stores pixels one band at a time as illustrated by this [imag
 
 (Credit: ArcGIS)
 
-I picked a study site that's about 1 mile by 1 mile in size, near my home. Here's the RGB image before clustering:
+I picked a study site that's about 1 mile by 1 mile in size, near my home. 
+
+Here's the RGB image before clustering:
 ![Lafayette, CO](img/pre_cluster_rgb_image.png)
 
 I have processed four tiles which took quite a bit of time (~20-30 minutes) on my MacBook Pro (M1). 
