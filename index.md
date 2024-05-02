@@ -3,7 +3,7 @@ layout: default
 title: Ed's Work
 ---
 # Quick Links
-- [Aerial Images Exploratory via K-means Clustering](#aerial-images-exploratory-via-kmeans-clustering)]
+- [Aerial Images Exploratory via K-means Clustering](#aerial-images-exploratory-via-kmeans-clustering)
 - [Multiple Data Layers](#multiple-data-layers)
 - [2022 NDVI for Marina, Mission, North Beach](#2022-ndvi-for-popular-neighborhoods-in-san-francisco)
 - [Fire Density in California Watersheds](#fire-density-in-california-watersheds)
@@ -92,6 +92,7 @@ Band interleaving stores each pixel band by band as illustrated by this [image](
 ![Band Interleaving](https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/GUID-8A660E6C-9CB7-49D0-B069-162DB1172150-web.gif)
 
 Pixel interleaving stores pixels one band at a time as illustrated by this [image](https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/GUID-8A8A7AB1-3F96-4F1D-A2A3-75BE1F9CBEAE-web.gif).
+![Pixel Interleaving](https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/GUID-8A8A7AB1-3F96-4F1D-A2A3-75BE1F9CBEAE-web.gif)
 
 (Credit: ArcGIS)
 
