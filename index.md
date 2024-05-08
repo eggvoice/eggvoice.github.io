@@ -16,16 +16,16 @@ title: Ed's Work
 
 ***
 # Forest Horizontal Heterogeneity
-This is a quick update on developing a tool for ![the Watershed Center](https://watershed.center/). The initial goal is to create a GIS plug-in for identifying openings in forests which would aid our target users - forest managers like ![Eric Frederick](https://watershed.center/about/staff/eric-frederick/) to assess the distribution of openings in the forest. The tool will be used to supporting the Watershed Center's vision of "[a] healthy and resilient watershed that can sustain wildfire and other natural disturbances to protect communities, keep water supplies reliable, and support diverse flora and fauna for current and future generations."
+This is a quick update on developing a tool for [the Watershed Center](https://watershed.center/). The initial goal is to create a GIS plug-in for identifying openings in forests which would aid our target users - forest managers like [Eric Frederick](https://watershed.center/about/staff/eric-frederick/) to assess the distribution of openings in the forest. The tool will be used to supporting the Watershed Center's vision of "[a] healthy and resilient watershed that can sustain wildfire and other natural disturbances to protect communities, keep water supplies reliable, and support diverse flora and fauna for current and future generations."
 [<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/treebeard.html)
-[<sub><sup>Source Code</sup></sub>]([https://](<https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/treebeard.ipynb)>)
+[<sub><sup>Source Code</sup></sub>](<https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/treebeard.ipynb)
 
 This is still very much work in progress with my team (Peter Kobylarz and Chris Griego). We are exploring the horizontal heterogeneity of forests in the Lefthand Creek Watershed near Boulder, Colorado. 
 ![Lefthand Creek Watershed](img/treebeard/left_hand_creek.png)
 
 This is an immediate project area.
 
-![Study Area](img/composite_plot.png)
+![Study Area](img/treebeard/composite_plot.png)
 
 We are using the following data sources:
 - [Aerial Data: "Denver Regional Aerial Photography Project (DRAPP)", Denver Regional Counsel of Governance, 2020.](https://data.drcog.org/dataset/denver-regional-aerial-photography-project-tiles-2020)
@@ -37,6 +37,7 @@ I have tried three different methods to identify openings in the forest:
 3. **Segment Anything Model**: Using the Segment Anything model to identify the openings in the forest.
 
 Here's the result of the thresholding method:
+
 ![NDVI Thresholding](img/treebeard/ndvi-mask.png)
 ![K-means Clustering](img/treebeard/kmeans-mask.png)
 ![Segment Anything Model](img/treebeard/segment-anything-mask.png)
@@ -44,6 +45,7 @@ Here's the result of the thresholding method:
 After creating the masking, I have converted the raster data to vector data to calculate the area of the openings in the forest. The projection is [EPSG:6428](http://epsg:6428/) with `US survey foot` as the unit. The area of the openings in the forest is calculated through `gdf.area / 43560` to convert the area from square feet to acres. Additionally, the openings are classified into different bins: 1/8 acre, 1/4 acre, 1/2 acre, and 1+ acres.
 
 Here's the result of the area calculation:
+
 ![NDVI Openings](img/treebeard/ndvi-open-spaces.png)
 ![K-means Openings](img/treebeard/kmeans-open-spaces.png)
 ![Segment Anything Openings](img/treebeard/segment-anything.png)
@@ -53,6 +55,7 @@ Immediately, I have learned that I need to find better ways to creating these po
 Separately, Peter has explored on how to process the LiDAR data to identify the openings in the forest. 
 
 Here's the result of that:
+
 ![LiDAR Openings](img/treebeard/lidar_canopy_no_canopy.png)
 
 Overall, this is a great learning experience for me. I am looking forward to discuss with my team and my class on how to furher hone my techniques and the develop a toolt that has practical applications for the Watershed Center.
