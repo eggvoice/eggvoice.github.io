@@ -58,7 +58,7 @@ Here's the result of that:
 
 ![LiDAR Openings](img/treebeard/lidar_canopy_no_canopy.png)
 
-Overall, this is a great learning experience for me. I am looking forward to discuss with my team and my class on how to furher hone my techniques and the develop a toolt that has practical applications for the Watershed Center.
+Overall, this is a great learning experience for me. I am looking forward to discuss with my team and my class on how to furher hone my techniques and the develop a tool that has practical applications for the Watershed Center.
 
 # Urban Greenspace
 I have learned how to calculate NDVI statistics on the 1-m resolution aerial images from the National Agriculture Imagery Program (NAIP). As mentioned below, I have come across the Denver Regional Aerial Photography Project which offers even higher resolution aerial images (3-inch, 6-inch, 12-inch). I wanted to explore the NDVI statistics on these high-resolution images. I have chosen the city of Lafayette, Colorado, as my study site. 
