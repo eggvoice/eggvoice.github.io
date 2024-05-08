@@ -36,7 +36,7 @@ I have tried three different methods to identify openings in the forest:
 2. **K-means Clustering**: Using the k-means clustering algorithm (`k = 2`) to identify the openings in the forest.
 3. **Segment Anything Model**: Using the Segment Anything model to identify the openings in the forest.
 
-Here's the result of the thresholding method:
+Here's the result of these methods in order:
 
 ![NDVI Thresholding](img/treebeard/ndvi-mask.png)
 ![K-means Clustering](img/treebeard/kmeans-mask.png)
