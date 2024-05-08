@@ -18,7 +18,7 @@ title: Ed's Work
 # Forest Horizontal Heterogeneity
 This is a quick update on developing a tool for [the Watershed Center](https://watershed.center/). The initial goal is to create a GIS plug-in for identifying openings in forests which would aid our target users - forest managers like [Eric Frederick](https://watershed.center/about/staff/eric-frederick/) to assess the distribution of openings in the forest. The tool will be used to supporting the Watershed Center's vision of "[a] healthy and resilient watershed that can sustain wildfire and other natural disturbances to protect communities, keep water supplies reliable, and support diverse flora and fauna for current and future generations."
 [<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/treebeard.html)
-[<sub><sup>Source Code</sup></sub>](<https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/treebeard.ipynb)
+[<sub><sup>Source Code</sup></sub>](https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/treebeard.ipynb)
 
 This is still very much work in progress with my team (Peter Kobylarz and Chris Griego). We are exploring the horizontal heterogeneity of forests in the Lefthand Creek Watershed near Boulder, Colorado. 
 ![Lefthand Creek Watershed](img/treebeard/left_hand_creek.png)
