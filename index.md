@@ -17,6 +17,8 @@ title: Ed's Work
 
 ***
 # Locating Canopy or Tree Gaps for Foresters
+[<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/treebeard_v2.html)
+[<sub><sup>Source Code</sup></sub>](https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/treebeard_v2.ipynb)
 
 This is an update to my last post. Our team — Chris, Peter, and I — has produced some meaningful results based on the requirements from [the Watershed Center](https://watershed.center/).
 
@@ -66,15 +68,16 @@ This process works well for areas at or below 300 acres, completing in 1-10 minu
 
 ## Results Comparison
 
-The results from image segmentation and LIDAR processing yield similar outcomes:
+The results from image segmentation and LIDAR processing yield similar outcomes except the highlighted areas:
 
 ![Compare Results](img/treebeard/compare_results.png)
 ![Result Analysis](img/treebeard/result_analysis.png)
 
 ## Summary
 
-As mentioned in the previous post, it is fortunate that both aerial and LIDAR data sources are available in the Lefthand Creek Watershed region, where the Watershed Center is focused. We have developed workflows to process either data source, producing comparable results, which is very useful for foresters.
+As mentioned in the previous post, we are fortunate to have both aerial and LIDAR data sources available in the Lefthand Creek Watershed region, where the Watershed Center is focused. We have developed workflows to process either data source, producing comparable results that will be very useful for the Watershed Center's foresters. This project has been an incredibly valuable learning exercise with practical benefits for all parties involved. 
 
+As a reminder, you can find the links to the source codes right below the title above. I hope these resources will be valuable to anyone who comes across them.
 
 # Forest Horizontal Heterogeneity
 This is a quick update on developing a tool for [the Watershed Center](https://watershed.center/). The initial goal is to create a GIS plug-in for identifying openings in forests which would aid our target users - forest managers like [Eric Frederick](https://watershed.center/about/staff/eric-frederick/) to assess the distribution of openings in the forest. The tool will be used to supporting the Watershed Center's vision of "[a] healthy and resilient watershed that can sustain wildfire and other natural disturbances to protect communities, keep water supplies reliable, and support diverse flora and fauna for current and future generations."
