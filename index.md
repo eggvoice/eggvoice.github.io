@@ -49,7 +49,7 @@ Before diving into the details, here’s our project workflow:
 My focus has been on processing aerial images, and particularly, I'd love to talk about image segmentation below. Since the last post, we have decided to use K-means clustering due to its simplicity. Our image segmentation method involves several steps:
 
 1. **Calculate NDVI**: Compute the NDVI pixel by pixel.
-2. **Quickshift Segmentation**: Use the quickshift method from scikit-image to group similar pixels into larger segments.
+2. **Quickshift**: Use the quickshift method from scikit-image to group similar pixels into larger segments.
 3. **Mean NDVI Calculation**: Calculate the mean NDVI for each segment.
 4. **K-means Clustering**: Apply K-means clustering (k=2) on the NDVI means.
 5. **Classification**: Infer that the higher NDVI cluster represents canopy/trees, and the lower NDVI cluster represents canopy gaps/tree gaps.
