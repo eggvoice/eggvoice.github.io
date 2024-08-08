@@ -3,3 +3,4 @@
 tmp.py
 */__pycache__/*
 */scratch/*
+notebooks/utils/__pycache__/*
