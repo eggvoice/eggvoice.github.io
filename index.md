@@ -46,7 +46,7 @@ Before diving into the details, here’s our project workflow:
 
 ### Methods and Techniques
 
-My focus has been on processing aerial images, particularly image segmentation. Since the last post, we have decided to use K-means clustering due to its simplicity. Our image segmentation method involves several steps:
+My focus has been on processing aerial images, and particularly, I'd love to talk about image segmentation below. Since the last post, we have decided to use K-means clustering due to its simplicity. Our image segmentation method involves several steps:
 
 1. **Calculate NDVI**: Compute the NDVI pixel by pixel.
 2. **Quickshift Segmentation**: Use the quickshift method from scikit-image to group similar pixels into larger segments.
