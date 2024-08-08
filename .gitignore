@@ -1,3 +1,5 @@
 .ipynb_checkpoints
 .DS_Store
 tmp.py
+*/__pycache__/*
+*/scratch/*
