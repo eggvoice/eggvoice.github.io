@@ -66,6 +66,12 @@ Here are the illustrations of the process:
 
 This process works well for areas at or below 300 acres, completing in 1-10 minutes. However, for larger study areas (e.g., 1500 acres), the workflow took over 30 hours on an MBP (M1). We haven't benchmarked this method extensively, but it should be much faster than clustering on NDVI alone. If I had a chance after wrapping up my certificate program with CU Boulder, I'd love to refactor and optimize the image segmentation method, as there are some unnecessary steps at various places. 
 
+## Buffer, Calculate Area & Bin
+
+After segmenting the image into two clusters, a default 5-ft buffer is applied to smooth out the canopy cluster. This creates more accurate and reasonable canopy gaps for calculating areas and binning, as illustrated below.
+
+![Buffer Area Bin](img/treebeard/buffer_area_bin.png)
+
 ## Results Comparison
 
 The results from image segmentation and LIDAR processing yield similar outcomes except the highlighted areas:
