@@ -3,6 +3,7 @@ layout: default
 title: Ed's Work
 ---
 # Quick Links
+- [Locating Canopy or Tree Gaps for Foresters (Forest Heterogeneity Part 2)](#locating-canopy-or-tree-gaps-for-foresters)
 - [Forest Horizontal Heterogeneity (Work in Progress)](#forest-horizontal-heterogeneity)
 - [Urban Greenspace](#urban-greenspace)
 - [Aerial Images Exploratory via K-means Clustering](#aerial-images-exploratory-via-kmeans-clustering)
@@ -15,6 +16,66 @@ title: Ed's Work
 - [About Me](#about-me)
 
 ***
+# Locating Canopy or Tree Gaps for Foresters
+
+This is an update to my last post. Our team — Chris, Peter, and I — has produced some meaningful results based on the requirements from [the Watershed Center](https://watershed.center/).
+
+## Project Background
+
+### Why This Matters
+
+A quick reminder of the project's significance comes from a recent quote by Eric Frederick:
+
+> Forest structural diversity is a key component of forest ecosystem health, as forests that contain structural heterogeneity are critical for providing wildlife habitat and can be more resilient to natural disturbances. Being able to quantify forest structural heterogeneity is important to be able to assess the need for potential management actions, and it allows us to ensure that our forest management projects are creating structural heterogeneity rather than homogeneity. This tool will allow us to better determine the need for canopy gaps in project areas, and it will allow us to more accurately pinpoint beneficial locations for creating canopy gaps of various sizes when implementing projects.
+
+## Team Focus Areas
+
+- **My Role**: Processing aerial images.
+- **Peter's Role**: LIDAR processing.
+- **Chris's Role**: Creating the QGIS plug-in.
+
+## Project Workflow
+
+Before diving into the details, here’s our project workflow:
+
+![Treebeard Project Workflow](img/treebeard/project_workflow.png)
+
+## Image Processing and Segmentation
+
+### Methods and Techniques
+
+My focus has been on processing aerial images, particularly image segmentation. Since the last post, we have decided to use K-means clustering due to its simplicity. Our image segmentation method involves several steps:
+
+1. **Calculate NDVI**: Compute the NDVI pixel by pixel.
+2. **Quickshift Segmentation**: Use the quickshift method from scikit-image to group similar pixels into larger segments.
+3. **Mean NDVI Calculation**: Calculate the mean NDVI for each segment.
+4. **K-means Clustering**: Apply K-means clustering (k=2) on the NDVI means.
+5. **Classification**: Infer that the higher NDVI cluster represents canopy/trees, and the lower NDVI cluster represents canopy gaps/tree gaps.
+
+### Visual Examples
+
+Here are the illustrations of the process:
+
+![Image Segmentation 01](img/treebeard/image_segmentation_01.png)
+![Image Segmentation 02](img/treebeard/image_segmentation_02.png)
+![Image Segmentation 03](img/treebeard/image_segmentation_03.png)
+
+### Performance and Challenges
+
+This process works well for areas at or below 300 acres, completing in 1-10 minutes. However, for larger study areas (e.g., 1500 acres), the workflow took over 30 hours on an MBP (M1). We haven't benchmarked this method extensively, but it should be much faster than clustering on NDVI alone. If I had a chance after wrapping up my certificate program with CU Boulder, I'd love to refactor and optimize the image segmentation method, as there are some unnecessary steps at various places. 
+
+## Results Comparison
+
+The results from image segmentation and LIDAR processing yield similar outcomes:
+
+![Compare Results](img/treebeard/compare_results.png)
+![Result Analysis](img/treebeard/result_analysis.png)
+
+## Summary
+
+As mentioned in the previous post, it is fortunate that both aerial and LIDAR data sources are available in the Lefthand Creek Watershed region, where the Watershed Center is focused. We have developed workflows to process either data source, producing comparable results, which is very useful for foresters.
+
+
 # Forest Horizontal Heterogeneity
 This is a quick update on developing a tool for [the Watershed Center](https://watershed.center/). The initial goal is to create a GIS plug-in for identifying openings in forests which would aid our target users - forest managers like [Eric Frederick](https://watershed.center/about/staff/eric-frederick/) to assess the distribution of openings in the forest. The tool will be used to supporting the Watershed Center's vision of "[a] healthy and resilient watershed that can sustain wildfire and other natural disturbances to protect communities, keep water supplies reliable, and support diverse flora and fauna for current and future generations."
 [<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/treebeard.html)
@@ -29,7 +90,7 @@ This is an immediate project area.
 
 We are using the following data sources:
 - [Aerial Data: "Denver Regional Aerial Photography Project (DRAPP)", Denver Regional Counsel of Governance, 2020.](https://data.drcog.org/dataset/denver-regional-aerial-photography-project-tiles-2020)
-- [LiDAR Data: "DRCOG LIDAR QL2 INDEX IN CO SP NORTH 2020", Denver Regional Counsel of Governance.](https://data.drcog.org/dataset/lidar-ql2-index-in-co-sp-north-2020)
+- [LIDAR Data: "DRCOG LIDAR QL2 INDEX IN CO SP NORTH 2020", Denver Regional Counsel of Governance.](https://data.drcog.org/dataset/lidar-ql2-index-in-co-sp-north-2020)
 
 I have tried three different methods to identify openings in the forest:
 1. **NDVI Thresholding**: Using the NDVI values (`open_spaces = ndvi >= 0.1`) to identify the openings in the forest. 
