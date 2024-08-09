@@ -17,8 +17,7 @@ title: Ed's Work
 
 ***
 # Locating Canopy or Tree Gaps for Foresters
-[<sub><sup>Interactive HTML</sup></sub>](https://eggvoice.github.io/notebooks/treebeard_v2.html)
-[<sub><sup>Source Code</sup></sub>](https://github.com/eggvoice/eggvoice.github.io/blob/main/notebooks/treebeard_v2.ipynb)
+:computer: [<sub><sup>Source Code at github.com/earthlab-education/treebeard</sup></sub>](https://github.com/earthlab-education/treebeard)
 
 This is an update to my last post. Our team — Chris, Peter, and I — has produced some meaningful results based on the requirements from [the Watershed Center](https://watershed.center/).
 
